@@ -1,0 +1,54 @@
+1. Navbar:
+    - Design according to Figma.
+    - Responsive layout.
+    - Display user's available coins (initially 0). ✅
+
+2. Banner Section:
+    - Design the banner with a heading, text, background image, and button per Figma. ✅
+    - Clicking the button increases the user's coins to allow player selection. ✅
+
+3. Player Data:
+    - Create a JSON file with 10-15 players.✅
+    - Include playerId, name, country, image, role, batting/bowling type, and bidding price. ✅
+    - JSON data can be generated using AI systems like Gemini or ChatGPT. ✅
+
+4. Player Display Section:
+    - Show all players in a card layout (3 columns recommended).✅
+    - Display player's name, country, image, role, and bidding price. ✅
+    - Include a "Choose Player" button on each card. ✅
+   
+5. Choose Player Functionality:
+    - On click, check if the user has enough coins. ✅
+    - If not, show an alert using React-Toastify. ✅
+    - If coins are available, add the player to the selected list. ✅
+
+6. Selected Players Section:
+    - Display selected players in a 1-column card layout. ✅
+    - Each card should have the player's image, name, role, and price. ✅
+    - Include a "Remove" button for each player to remove them from the selected list. ✅
+
+7. Available & Selected Toggle Feature:
+    - Add two buttons at the top-right: "Available" and "Selected". ✅
+    - Default to showing the "Available Player" section. ✅
+    - "Selected" button displays how many players have been selected. ✅
+
+8. Validation for Player Selection:
+    - If a player has already been selected, show an alert. ✅
+    - Allow only 6 players to be selected at a time. If more, show an alert. ✅
+
+9. Add More Players Button:
+    - Add a button that switches back to the available player list for additional player selection. ✅
+
+10. Newsletter Section:
+    - Design according to Figma. ✅
+    - (Optional) Implement a login experience using LocalStorage. ✅
+    - Save the user's email on subscribing and display a personalized message on reload. ✅
+
+11. Footer Section:
+    - Design the footer according to Figma. ✅
+
+12. Challenges:
+    - React-Toastify: Use React-Toastify to replace default alerts for better UX. ✅
+    - Player Removal: Add a remove button to each selected player card to remove them from the list. ✅
+    - Web Application Title: Change the web application title from the default Vite-react. Marks will be deducted if this is not done. ✅
+
